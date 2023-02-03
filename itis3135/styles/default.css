@@ -1,0 +1,96 @@
+/*
+<link rel="stylesheet" href="styles/default.css" type="text/css" >
+*/
+body {
+    background-color: rgb(232, 198, 224) ;
+  
+}
+a{
+  color:inherit;
+  color:black;
+  font-family: courier;
+}
+h1 {
+  color: rgba(94, 6, 129, 0.974);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  text-align: center;
+}
+h2 {
+  color: rgb(94, 6, 129);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  text-align: center;
+}
+h3{
+  color: rgba(33, 33, 137, 0.974);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  text-align: center;
+}p {
+  color: rgba(45, 2, 32, 0.679);
+  font-family: courier;
+  font-size:110%;
+  text-align: center;
+}
+ul{
+  color: rgba(45, 2, 32, 0.679);
+  font-family: courier;
+  font-size:110%; 
+}
+table, th, td {
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.tables{
+  color: rgba(176, 142, 56, 0.607);
+  font-family: courier;
+  font-size: 160%;
+  text-align: center; 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.figcaption{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+legend{
+  color: rgb(55, 55, 160);
+  font-family: courier;
+  font-size:100%;
+  text-align: center; 
+}
+input, label{
+  color: rgb(55, 55, 160);
+  font-family: courier;
+  font-size:100%;
+  text-align: center; 
+  text-align: center; 
+}
+button {
+  background-color: #5117a3;
+  font-family: courier;border: double;
+  color: hsl(313, 78%, 88%);
+  padding: 4px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+a:visited {
+  color: black;
+}
+hr{
+  border: 1px solid rgba(85, 29, 163, 0.592);
+}

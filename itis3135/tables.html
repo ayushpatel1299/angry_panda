@@ -5,18 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hompage Page</title> 
-    <style>
-        img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
-    </style> 
+    <title>Tables Page</title>  
 </head>
-
 <body>
-    <header> <h1>Ayush Patel | ITIS 3135 |</h1> 
+    <header> 
+        <h1>Ayush Patel | ITIS 3135 |</h1> 
         <p>Navigation Menu: 
             <a target="_blank" href="https://webpages.charlotte.edu/apate225/index.html">Course Hompepage </a> | 
             <a target="_blank" href="https://webpages.charlotte.edu/apate225/itis3135/index.html">Angry Panda Hompepage </a> | 
@@ -24,24 +17,165 @@
             <a target="_blank" href="https://webpages.charlotte.edu/apate225/itis3135/tables.html">HTML Tables</a> | 
             <a target="_blank" href="https://webpages.charlotte.edu/apate225/itis3135/styles/default.css">Styles </a> | 
             <a target="_blank" href="https://webpages.charlotte.edu/apate225/itis3135/forms.html">Forms</a> | 
-            <a target="_blank" href="https://webpages.charlotte.edu/apate225/itis3135/website_evaluations.html">Website Evaluations</a></p>       
-    </header>
-    <hr>
+            <a target="_blank" href="https://webpages.charlotte.edu/apate225/itis3135/website_evaluations.html">Website Evaluations</a></p>   
+            <style>
+                h2{
+                    font-size: 150%;
+                    text-align: left;
+                }
+                h3{
+                    text-align: left; 
+                }
+            </style>    
+    </header><hr>
     <main>
-    <h2>Angry Panda's Homepage</h2>
-    <p> This is my ITIS 3135 Homepage</p>
     <section>
-        <img style="white-space: nowrap; width: 200px; height: 250px; " src= "https://i.pinimg.com/222x/5c/fd/e1/5cfde1df8dce2e94e554d94ca80c886a.jpg">
-        <p style="text-align: center;" figcaption="color:darkviolet;" ><strong>Don't mess with me I'm Angry Panda!!</strong></figcaption></p>
+    <h2>HTML Tables</h2> 
+    </section>
+    <section>
+        <h3> My Tubular Data</h3>
+        <ol type="1">
+        <li>Ben Linus jblinus156@gmail.com</li>
+        <li>Elon Musk emusk@gmail.com</li>
+        <li>Bob Sagget saggetbob@yahoo.com</li>
+        <li>Harry Potter hpot@gmail.com</li>
+        <li>Jack Sheppard jshep@yahoo.com</li>
+        <li>John Locke jlocke89@uncc.edu</li>
+        <li>James Sawyer jsawyer@gmail.com</li>
+        <li>Hurley Hugo hhugo@uncc.edu</li>
+        </ol>
+    </section>
+    <section>
+    <h3> Employee Data in Simle Table</h3>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Email</th> 
+          <th>Years of Service</th>
+        </tr>
+        <tr>            
+            <td>Ben Linus</td>
+            <td>jblinus156@gmail.com</td> 
+            <td>25</td>
+        </tr>
+        <tr>            
+            <td>Elon Musk</td>
+            <td>emusk@gmail.com</td> 
+            <td>20</td>
+        </tr>
+        <tr>            
+            <td>Bob Sagget</td>
+            <td>saggetbob@yahoo.com</td> 
+            <td>12</td>
+        </tr>
+        <tr>            
+            <td>Harry Potter</td>
+            <td>hpot@gmail.com</td> 
+            <td>8</td>
+        </tr>
+        <tr>            
+            <td>Jack Sheppard</td>
+            <td>jshep@yahoo.com</td> 
+            <td>10</td>
+        </tr>
+        <tr>            
+            <td>John Locke</td>
+            <td>jlocke89@uncc.edu</td> 
+            <td>8</td>
+        </tr>
+        <tr>            
+            <td>James Sawyer</td>
+            <td>jsawyer@gmail.com</td> 
+            <td>9</td>
+        </tr>
+        <tr>            
+            <td>Hurley Hugo</td>
+            <td>hhugo@uncc.edu</td> 
+            <td>11</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+        <figure>
+        <h3> Employee Data in Complex Table<br></h3>
+        <figcaption style="text-align: left; color: rgba(33, 33, 137, 0.974); font-family: Verdana, Geneva, Tahoma; font-size: 150%;">Employee Information </figcaption>  
+        </figure>
+    <table>
+        <tr style="color: rgb(0, 0, 0);">
+            <th>Position</th>
+            <th>Name</th>
+            <th>Email</th> 
+            <th>Years of Service</th>
+            <th>Monthly Salary</th>
+        </tr>
+        <tr style="color: rgb(0, 0, 1);">  
+            <td>Supervisor</td>          
+            <td>Ben Linus</td>
+            <td>jblinus156@gmail.com</td> 
+            <td>25</td>
+            <td>$ 12500</td>
+        </tr>
+        <tr style="color: rgba(0, 0, 0, 0.750);">    
+            <td rowspan="2">Manager </td>        
+            <td>Elon Musk</td>
+            <td>emusk@gmail.com</td> 
+            <td>20</td>
+            <td>$ 12000</td>
+        </tr>
+        <tr style="color: rgba(0, 0, 0, 1);">          
+            <td>Bob Sagget</td>
+            <td>saggetbob@yahoo.com</td> 
+            <td>12</td>
+            <td>$ 11800</td>
+        </tr>
+        <tr style="color: rgba(0, 0, 0, .750);">  
+            <td rowspan="2">Assistant Manager</td>          
+            <td>Harry Potter</td>
+            <td>hpot@gmail.com</td> 
+            <td>8</td>
+            <td>$ 9800</td>
+        </tr>
+        <tr style="color: rgba(0, 0, 0, 1);">            
+            <td>Jack Sheppard</td>
+            <td>jshep@yahoo.com</td> 
+            <td>10</td>
+            <td>$ 9900</td>
+        </tr>
+        <tr style="color: rgba(0, 0, 0, 0.700);">   
+            <td rowspan="3">Employee </td>         
+            <td>John Locke</td>
+            <td>jlocke89@uncc.edu</td> 
+            <td>8</td>
+            <td>$ 6800</td>
+        </tr>
+        <tr style="color: rgba(0, 0, 0, 1);">            
+            <td>James Sawyer</td>
+            <td>jsawyer@gmail.com</td> 
+            <td>9</td>
+            <td>$ 7000</td>
+        </tr>
+        <tr style="color: rgba(0, 0, 0, 0.700);">            
+            <td>Hurley Hugo</td>
+            <td>hhugo@uncc.edu</td> 
+            <td>11</td>
+            <td>$ 8000</td>
+        </tr>
+        <tr>            
+            <th colspan="3">Total years of service &<br>Total monthly salary</th>
+            <td>103</td> 
+            <td>$ 77800</td>
+        </tr>
+      </table>
     </section>
     </main>
-    <hr>
+
+    <br>
     <footer> 
         <p><a href="https://validator.w3.org/check?uri=referer">Link to HTML Validator<img src="http://www.w3.org/Icons/valid-xhtml10" width = "45" height = "27" alt ="Link to HTML Validator"></a></p>
         <p><a href="https://jigsaw.w3.org/css-validator/">Link to CSS Validator<img src="data:image/png;base64,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" width = "45" height = "27" alt ="Link to CSS Validator"></a></p>
         <p>Designed by: <a href="https://webpages.charlotte.edu/apate225/itis3135/patel.work/index.html">Patel.work<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVSw9fOaE_PaYlA9TKTT2luRkyr1NSjuvvSg&usqp=CAU" width = "45" height = "30" alt ="Link to CSS Validator"> </a><br>
         <strong><em>Patels Do It Right ©</em></strong></p>
     </footer>
-    </body>
+</body>
 </html>
 
