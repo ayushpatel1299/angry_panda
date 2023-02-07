@@ -5,10 +5,25 @@ body {
     background-color: rgb(232, 198, 224) ;
   
 }
+
 a{
   color:inherit;
   color:black;
   font-family: courier;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+a:link {
+ text-decoration: none;
 }
 h1 {
   color: rgba(94, 6, 129, 0.974);
@@ -40,7 +55,7 @@ ul{
 }
 table, th, td {
   border: 1px solid black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .tables{
   color: rgba(176, 142, 56, 0.607);
@@ -88,9 +103,31 @@ img{
   margin-left: auto;
   margin-right: auto; 
 }
-a:visited {
-  color: black;
-}
 hr{
-  border: 1px solid rgba(85, 29, 163, 0.592);
+  border: 1px solid rgba(163, 29, 85, 0.974);
 }
+figcaption{
+  text-align: center; 
+  color: rgba(33, 33, 137, 0.974); 
+  font-family: Verdana, Geneva, Tahoma; 
+  font-size: 150%;
+}
+table, th, tr{
+  margin-left: auto;
+  margin-right: auto;  
+}
+div.list{
+  text-align: center;
+}
+ol.inline{
+  display: inline-block;
+  text-align: left;
+}
+img.hppic{
+  white-space: nowrap; 
+  width: 200px; 
+  height: 250px;
+}
+/*
+Firm Page
+*/
