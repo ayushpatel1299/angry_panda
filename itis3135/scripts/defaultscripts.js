@@ -1,0 +1,1 @@
+scriptTest(alert("Hey y script is running") )
