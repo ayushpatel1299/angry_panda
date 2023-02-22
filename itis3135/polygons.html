@@ -7,7 +7,7 @@
     <title>ITIS 3135 | Ayush Patel's Angry Panda | Hompage Page</title> 
     <link rel="stylesheet" href="styles/default.css" type="text/css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src= "scripts/template.html"></script>
+    <script src="scripts/polygons.js"></script>
 </head>
 
 <body>
@@ -25,12 +25,13 @@
     </header>
     <hr>
     <main>
-    <h2>Angry Panda's Homepage</h2>
-    <p> This is my ITIS 3135 Homepage</p>
-    <section>
-        <img class ="hppic" src= "https://i.pinimg.com/222x/5c/fd/e1/5cfde1df8dce2e94e554d94ca80c886a.jpg">
-        <p style="text-align: center;" figcaption="color:darkviolet;" ><strong>Don't mess with me I'm Angry Panda!!</strong></figcaption></p>
-    </section>
+    <h2>Polygons</h2>
+    <p>Angry Panda would like your number:</p>
+	<input class = "polygons" type="number" id="UserInput">
+    <hr style= "border: 0px;">
+	<button class = "polygons" type="button" onclick="getShape()">Submit</button>
+	<p id="errorMessage"></p>
+	<p id="result"></p>
     </main>
     <hr>
     <footer> 
