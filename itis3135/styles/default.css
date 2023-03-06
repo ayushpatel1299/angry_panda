@@ -2,14 +2,15 @@
 <link rel="stylesheet" href="styles/default.css" type="text/css" >
 */
 body {
-    background-color: rgb(232, 198, 224) ;
+    background-color: rgb(230, 186, 220) ;
   
 }
 
 a{
   color:inherit;
-  color:black;
+  color:rgba(163, 29, 85, 0.974);
   font-family: courier;
+  
 }
 a:visited {
   text-decoration: none;
@@ -43,7 +44,7 @@ h3{
   font-size: 100%;
   text-align: center;
 }p {
-  color: rgba(45, 2, 32, 0.679);
+  color: rgb(54, 4, 155);
   font-family: courier;
   font-size:110%;
   text-align: center;
@@ -141,8 +142,35 @@ p.footer{
   margin-right: auto;  
   display: block;
   padding-bottom: 2px;
-
 }
-/*
-Firm Page
-*/
+.firm nav{
+display: inline-block;
+position: relative; 
+top: 0px; left: 0px; 
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.validator{
+  white-space: nowrap; 
+  width: 45px; height: 27px;
+}
+.logo{
+  width:40px;
+  height: 50px;
+  white-space: nowrap;
+}
+.firm{
+  text-align: center;
+  color:inherit;
+  color:rgba(163, 29, 85, 0.974);
+  font-family: courier;
+  font-size: 110%;
+  top: 100%;
+}
+.nav:hover{
+  color:white;
+  text-decoration: none;
+}
+.nac:visited{
+  color: royalblue;
+}

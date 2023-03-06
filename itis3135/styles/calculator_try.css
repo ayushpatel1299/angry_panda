@@ -1,0 +1,214 @@
+/*
+<link rel="stylesheet" href="styles/default.css" type="text/css" >
+*/
+body {
+  background-color: rgb(230, 186, 220) ;
+
+}
+
+a{
+color:inherit;
+color:rgba(163, 29, 85, 0.974);
+font-family: courier;
+
+}
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:active {
+text-decoration: none;
+}
+a:link {
+text-decoration: none;
+}
+h1 {
+color: rgba(94, 6, 129, 0.974);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 100%;
+text-align: center;
+}
+h2 {
+color: rgb(94, 6, 129);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 100%;
+text-align: center;
+}
+h3{
+color: rgba(33, 33, 137, 0.974);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 100%;
+text-align: center;
+}p {
+color: rgb(54, 4, 155);
+font-family: courier;
+font-size:110%;
+text-align: center;
+}
+ul{
+color: rgba(45, 2, 32, 0.679);
+font-family: courier;
+font-size:110%; 
+}
+table, th, td {
+border: 1px solid black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tables{
+color: rgba(176, 142, 56, 0.607);
+font-family: courier;
+font-size: 160%;
+text-align: center; 
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.figcaption{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%; 
+}
+legend{
+color: rgb(55, 55, 160);
+font-family: courier;
+font-size:100%;
+text-align: center; 
+}
+input, label{
+color: rgb(55, 55, 160);
+font-family: courier;
+font-size:100%;
+text-align: center; 
+text-align: center; 
+}
+button {
+background-color: #5117a3;
+font-family: courier;border: double;
+color: hsl(313, 78%, 88%);
+padding: 4px 50px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+img{
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+hr{
+border: 1px solid rgba(163, 29, 85, 0.974);
+}
+figcaption{
+text-align: center; 
+color: rgba(33, 33, 137, 0.974); 
+font-family: Verdana, Geneva, Tahoma; 
+font-size: 150%;
+}
+table, th, tr{
+margin-left: auto;
+margin-right: auto;  
+}
+div.list{
+text-align: center;
+}
+ol.inline{
+display: inline-block;
+text-align: left;
+}
+img.hppic{
+white-space: nowrap; 
+width: 200px; 
+height: 250px;
+}
+p.footer{
+text-align: center;
+}
+
+.script1{
+text-align: center;
+}
+.polygons{
+text-align: center;
+margin-left: auto;
+margin-right: auto;  
+display: block;
+padding-bottom: 2px;
+}
+.firm nav{
+display: inline-block;
+position: relative; 
+top: 0px; left: 0px; 
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.validator{
+white-space: nowrap; 
+width: 45px; height: 27px;
+}
+.logo{
+width:40px;
+height: 50px;
+white-space: nowrap;
+}
+.firm{
+text-align: center;
+color:inherit;
+color:rgba(163, 29, 85, 0.974);
+font-family: courier;
+font-size: 110%;
+top: 100%;
+}
+.nav:hover{
+color:white;
+text-decoration: none;
+}
+.nac:visited{
+color: royalblue;
+}
+.container{
+  max-width: 40px;
+  margin: 1vh auto 0 auto;
+  box-shadow: 0px 0px 4.3px 1.7px rgba(153,153,153,1);
+  
+}
+#display{
+  text-align: center;
+  height: 7px;
+  line-height: 7px;
+  padding: 1.6px .8px;
+  font-size: 2.5px;
+}
+.calculatorButtons{
+  display: grid;
+  border-bottom: .1px solid #999;
+  border-left: .1px solid#999;
+}
+.calculatorButtons > div {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+}
+.calculatorButtons{
+  border: 0.05px solid #999;
+  line-height: 10px;
+  text-align:center;
+  font-size: 2.px;
+  cursor: pointer;
+}
+#equals{
+  background-color: rgb(85, 85, 255);
+  color: white;
+}
+.calculatorButtons:hover{
+  background-color: #323330;
+  color: white;
+  transition: ease-in-out;
+}

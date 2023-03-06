@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITIS 3135 | Ayush Patel's Angry Panda | Hompage Page</title> 
-    <link rel="stylesheet" href="styles/default.css" type="text/css" >
+    <link rel="stylesheet" href="styles/calculator_try.css" type="text/css" >
+   
+    <script src= "scripts/calculatorTry.js"></script>
 </head>
-
 <body>
     <header class = header> <h1> ITIS 3135 Ayush Patel's Angry Panda </h1>
         <p class = navLinks>Navigation Menu:  
@@ -31,36 +32,35 @@
                 <a class="nav" target="_blank" href="https://webpages.charlotte.edu/apate225/itis3135/calculator_part2.html">Calculator Part II</a></p>
             </div>
         <hr>
-    <main>
-    <h2> Contract Page </h2>
-    <section>
-        <p>I, Ayush M. Patel agree to abide by the terms of the course contract in my Spring 2023, ITIS 3135, Web App Design and Developtment
-            with my instructor, Professor D.I. von Briesen.</p>
-        <br>
-        <br>
+    <h2>Calculator Try</h2>
+    <!--I used w3schools and dev.to/javascriptacademy -->
+
+    <!-- I got stuck trying to make the buttons in a square but also have them type the outputs of the buttons when clicked. -->
     </section>
-    <section>
-        <p>I understand that all work that I do on publicly available online tools will be available to the world, and
-            will not put information there that is inappropriate for schoolwork, or that I wish to keep private.</p>
+    <div class = "calculator">
         <br>
-        <br>
-    </section>
-    <section>
-        <p>I also understand that it is my work that counts for attendance, not logins or showing up for class. As such,
-            failure to turn in assignments may show as absences.</p>
-        <br>
-        <br>
-    </section>
-    <section>
-        <p>I also understand that given the structure and content of this class it's possible to find many examples
-            online or even view my classmates' code directly. I swear that I will only use these resources to learn, and
-            will not cut and paste code except where I have properly given credit (i.e. external libraries) and never
-            from my classmates.</p>
-        <br>
-        <br>
-    </section>
-    <section>
-        <p>Signed:<em> Ayush M. Patel , 24/01/2023 </em></p>
+        
+      <input type = "text" id="result">
+      <br><br>
+      <button type="button" onclick="clearResult()">C</button>
+      <button class="button" onclick="deleteLast()">CE</button>
+      <button class="button" onclick="addToResult('/')">/</button>
+      <button class="button" onclick="addToResult('*')">*</button>
+      <button class="button" onclick="addToResult('7')">7</button>
+      <button type="button" onclick="addToResult('8')">8</button>
+      <button class="button" onclick="addToResult('9')">9</button>
+      <button class="button" onclick="addToResult('-')">-</button>
+      <button class="button" onclick="addToResult('4')">4</button>
+      <button class="button" onclick="addToResult('5')">5</button>
+      <button class="button" onclick="addToResult('6')">6</button>
+      <button type="button" onclick="addToResult('+')">+</button>
+      <button class="button" onclick="addToResult('1')">1</button>
+      <button class="button" onclick="addToResult('2')">2</button>
+      <button class="button" onclick="addToResult('3')">3</button>
+      <button class="button" onclick="calculate()">=</button>
+      <button class="button" onclick="addToResult('0')">0</button>
+      <button class="button" onclick="addToResult('.')">.</button>
+    </div>
     </section>
     </main>
     <hr>
