@@ -1,0 +1,121 @@
+/* background image */
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/Candle-Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #262626c6;
+  color: rgb(222, 119, 22);
+}
+
+/* top heading */
+header,
+h2 {
+  color:lightcoral;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  color: rgba(196, 14, 32, 0.826);
+  font-size: 60px;
+  padding-top: 20px;
+  text-align: center;
+
+}
+caption{
+  color: rgba(196, 14, 32, 0.826);
+  font-size: 50px;
+  text-align: center;
+}
+
+/* font size */
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* table format*/
+td,
+th {
+  border: 1px solid black;
+
+  padding: 8px;
+  background-color:#262626;
+  color:powderblue;
+  text-align: left;
+  
+}
+ol{
+  color: lightcoral;
+}
+th{
+  color: bisque;
+}
+
+th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  background-color:#cb8989;
+ 
+  color:black;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* form */
+form {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  color:black;
+}
+
+
+/* footer bottom of page*/
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 70px;
+ 
+}
+
+abbr {
+  text-decoration: none;
+
+}
+
+/* whitespace */
+.whitespace {
+  padding: 10px;
+}
+
+.whitespace2 {
+  padding: 60px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link{
+  color: orange;
+}
+label{
+  color: lightcoral;
+}
+footer{
+  position: absolute;
+  bottom: -2375px;
+  width: 50%;
+  margin-right: 175px;
+}

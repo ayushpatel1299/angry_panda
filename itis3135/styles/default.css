@@ -8,11 +8,12 @@ body {
 
 a{
   color:inherit;
-  color:rgba(163, 29, 85, 0.974);
+  color:rgb(163, 29, 85);
   font-family: courier;
+  font-size:21px;
   
 }
-a:visited {
+header::a:visited {
   text-decoration: none;
 }
 
@@ -167,10 +168,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 110%;
   top: 100%;
 }
-.nav:hover{
+a:hover{
   color:white;
   text-decoration: none;
 }
-.nac:visited{
-  color: royalblue;
+.icons{
+  width:20%;
 }
