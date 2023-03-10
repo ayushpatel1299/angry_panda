@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS 3135 | Ayush Patel's Angry Panda | Arrays</title> 
+    <link rel="stylesheet" href="styles/default.css" type="text/css" >
+
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <script src="scripts/arrays.js"></script>
+    <h2>Employee Salaries</h2>
+    <form id="add_form">
+      <label for="employee_list">Select an employee:</label>
+      <select id="employee_list">
+        <option value="Ben Linus">Ben Linus</option>
+        <option value="Elon Musk">Elon Musk</option>
+        <option value="Bob Sagget">Bob Sagget</option>
+        <option value="Harry Potter">Harry Potter</option>
+        <option value="Jack Sheppard">Jack Sheppard</option>
+        <option value="John Locke">John Locke</option>
+        <option value="James Sawyer">James Sawyer</option>
+        <option value="Hurley Hugo">Hurley Hugo</option>
+      </select>
+      <br>
+      <label for="salary_input">Enter salary:</label>
+      <input type="text" id="salary_input">
+      <br>
+      <button type="button" onclick="addSalary()">Add Salary</button><br>
+      <button type="button" onclick="displaySalary()">Display Salary</button>
+      <button type="button" onclick="displayResults()">Display Results</button>
+    </form>
+
+    <div id="results"></div>
+    <table id="results_table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Salary</th>
+          </tr>
+          <tr><div id="results"></div></tr>
+        </thead>
+        <tbody id="results_table"></tbody>
+      </table> 
+
+    </main>
+
+    <hr>
+    <div data-include="components/footer.html"></div>
+    </body>
+    <script src="scripts/include.min.js"></script>
+    </html>

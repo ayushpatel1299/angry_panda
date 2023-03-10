@@ -51,8 +51,8 @@ function displayExperience() {
   document.getElementById("experience").innerHTML = "Your self defense experience: " + experience;
 }
 function calculateBalance() {
-  var caloriesEaten = parseInt(document.getElementById("caloriesEaten").value);
-  var caloriesBurned = parseInt(document.getElementById("caloriesBurned").value);
+  var caloriesEaten = parseInt(document.getElementById("calories-eaten").value);
+  var caloriesBurned = parseInt(document.getElementById("calories-burned").value);
   var balance = caloriesEaten - caloriesBurned;
   document.getElementById("balance").innerHTML = "Your Caloric Balance: " + balance + " calories";
 }
