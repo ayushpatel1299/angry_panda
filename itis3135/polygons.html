@@ -10,11 +10,15 @@
     <script src="scripts/polygons.js"></script>
 </head>
 <body>
-    <div data-include="components/header.html"></div>
-    <hr>
+    <header>
+        <div data-include="components/header.html">
+            <h1>ITIS 3135 | Ayush Patel's Angry Panda | Polygons</h1>   
+        </div>
+        <hr>
+        </header>
     <main>
     <h2>Polygons</h2>
-    <label for="UserInput"><p>Angry Panda would like your number:</p></label>
+    <p><label for="UserInput">Angry Panda would like your number:</label></p>
 	<input class = "polygons" type="number" id="UserInput">
     <hr style= "border: 0px;">
 	<button class = "polygons" type="button" onclick="getShape()">Submit</button>
@@ -22,7 +26,9 @@
 	<p id="result"></p>
     </main>
     <hr>
+    <footer>
     <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/include.min.js"></script>
 </body>
-<script src="scripts/include.min.js"></script>
 </html>

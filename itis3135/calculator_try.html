@@ -10,14 +10,17 @@
     <script src= "scripts/calculatorTry.js"></script>
 </head>
 <body>
-    <div data-include="components/header.html"></div>
-    <hr>
+    <header>
+        <div data-include="components/header.html">
+            <h1>ITIS 3135 | Ayush Patel's Angry Panda | Calculator Try</h1> 
+        </div>
+        <hr>
+        </header>
     <main>
     <h2>Calculator Try</h2>
     <!--I used w3schools and dev.to/javascriptacademy -->
 
     <!-- I got stuck trying to make the buttons in a square but also have them type the outputs of the buttons when clicked. -->
-    </section>
     <div class = "calculator">
         <br>
         <label for="result" >Enter your calculations below</label>
@@ -42,10 +45,13 @@
       <button class="button" onclick="addToResult('0')">0</button>
       <button class="button" onclick="addToResult('.')">.</button>
     </div>
-    </section>
+
     </main>
     <hr>
+    <footer>
     <div data-include="components/footer.html"></div>
-</body>
+</footer>
 <script src="scripts/include.min.js"></script>
+</body>
+
 </html>

@@ -1,40 +1,40 @@
-let persons = ['Ben Linus', 'Elon Musk', 'Bob Sagget', 'Harry Potter',
-'Jack Sheppard', 'John Locke', 'James Sawyer', 'Hurley Hugo]'];
-let salaries = ['$ 12500', '12000', '11800', '9800', '9900', '6800', '7000', '8000'];
+let persons = [];
+let salaries = [];
 
-persons = document.getElementById("employee_list");
+const employeeList = document.getElementById("employee_list").options;
+//const employees = document.getElementById("employee_list").value;
 let salaryInput = document.getElementById("salary_input");
 
- starts
-window.onload = function() {
-  employeeList.focus();
+for(p=1; p<=8; p++){
+  persons[p]=employeeList[p].text;
+  salaries[p]=0;
 }
-
+//console.log(persons);
+//console.log(salaries);
 function addSalary() {
-  let selectedEmployee = employeeList.value;
+  
+  let selectedEmployee = employee_list.selectedIndex;
   let salary = parseFloat(salaryInput.value);
+  salaries[selectedEmployee] = salary;
+
+  console.log(salary);
 
   // Validate the inputs
   if (selectedEmployee === "") {
     alert("Please select an employee.");
-    employeeList.focus();
+    employee_list.focus();
     return;
   }
   if (isNaN(salary) || salary === "") {
     alert("Please enter a valid salary.");
     salaryInput.value = "";
-    salaryInput.focus();
+    salary_input.focus();
     return;
   }
-
-  // Add the data to the arrays
-  persons.push(selectedEmployee);
-  salaries.push(salary);
-
   // Clear the inputs and move the cursor to the name field
   employeeList.value = "";
-  salaryInput.value = "";
-  employeeList.focus();
+  salary_input.value = "";
+  employee_list.focus();
 
   // Display the data in the table
 displaySalary();
@@ -42,10 +42,17 @@ displaySalary();
 function displayResults() {
     // Calculate the average salary
     const totalSalary = salaries.reduce((acc, curr) => acc + curr, 0);
-    const averageSalary = totalSalary / salaries.length;
+    const averageSalary = totalSalary / (salaries.length -1);
   
     // Find the highest salary
-    const highestSalary = Math.max(...salaries);
+
+    let sals =[];
+    for(var s = 1; s < salaries.length; s++){
+      sals.push(salaries[s]);
+    }
+    console.log(sals);
+
+    const highestSalary = Math.max(...sals);
   
     // Create the heading and paragraphs for the results
     const heading = document.createElement('h2');
@@ -79,7 +86,7 @@ function displayResults() {
     salaryHeader.textContent = 'Salary';
   
     // Add a row for each person and their salary
-    for (let i = 0; i < persons.length; i++) {
+    for (let i = 1; i < persons.length; i++) {
       const row = table.insertRow();
       const nameCell = row.insertCell();
       nameCell.textContent = persons[i];

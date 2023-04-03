@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="styles/default.css" type="text/css" >
 */
 body {
-    background-color: rgb(230, 186, 220) ;
+    background-color: rgba(142, 249, 229, 0.45) ;
   
 }
 
@@ -28,24 +28,24 @@ a:link {
  text-decoration: none;
 }
 h1 {
-  color: rgba(94, 6, 129, 0.974);
+  color: rgba(14, 87, 212, 0.974);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 100%;
   text-align: center;
 }
 h2 {
-  color: rgb(68, 7, 167);
+  color: rgba(88, 11, 166, 0.839);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 100%;
   text-align: center;
 }
 h3{
-  color: rgba(33, 33, 137, 0.974);
+  color: rgba(15, 15, 197, 0.974);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 100%;
   text-align: center;
 }p {
-  color: rgb(54, 4, 155);
+  color: rgba(14, 87, 212, 0.974);
   font-family: courier;
   font-size:110%;
   text-align: center;
@@ -56,8 +56,10 @@ ul{
   font-size:110%; 
 }
 table, th, td {
-  border: 1px solid black;
+  border: 2px solid rgba(10, 54, 129, 0.974);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgba(14, 87, 212, 0.974);
 }
 .tables{
   color: rgba(176, 142, 56, 0.607);
@@ -78,7 +80,7 @@ table, th, td {
   width: 50%; 
 }
 legend{
-  color: rgb(55, 55, 160);
+  color: rgb(19, 19, 222);
   font-family: courier;
   font-size:100%;
   text-align: center; 
@@ -91,7 +93,7 @@ input, label{
   text-align: center; 
 }
 button {
-  background-color: #5117a3;
+  background-color: #17a3a1;
   font-family: courier;border: double;
   color: hsl(313, 78%, 88%);
   padding: 4px 50px;
@@ -279,4 +281,49 @@ color: rgb(103, 8, 132);
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+#contact-card {
+	display: none;
+	position: absolute;
+	top: 50px;
+    left: 50px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+button{
+    display: flex;
+    margin:auto;
+    margin-right: auto;
+    padding-left:20%;
+    padding-right: 20%;
+}
+.where {
+    border-collapse: collapse;
+    width: 100%;
+}
+.where {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.where{
+    background-color: #f2f2f2;
+}
+.slam{
+  width: 350px;
+  height: 350px;
+}
+.button {
+  background-color: rgb(32, 198, 126);
+  border: 4px solid black;
+  color: rgb(5, 38, 57);
+  padding: 3px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 30px;
+  cursor: pointer;
 }

@@ -1,47 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="slideshow" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITIS 3135 | Ayush Patel's Angry Panda | Slide Show</title> 
+    <title>ITIS 3135 | Ayush Patel's Angry Panda | Slideshow</title> 
     <link rel="stylesheet" href="styles/default.css" type="text/css" >
 
 </head>
 <body class="slideshow">
-    <div data-include="components/header.html"></div>
-    <hr>
+    <header>
+        <div data-include="components/header.html">
+            <h1>ITIS 3135 | Ayush Patel's Angry Panda | Slideshow</h1>
+        </div>
+        <hr>
+        </header>
     <main>
-    <h1>Slide Show</h1>
+    <h2>Slideshow</h2>
     <div class="slideshow-container">
         <div class="mySlides fade"> 
             <div class="numbertext">1 / 6</div>
-            <img src="images/scream_panda.jpeg" style ="width:100%">
+            <img src="images/scream_panda.jpeg" alt="Scream Panda" style ="width:100%">
             <div class="text">Scream Panda</div>
         </div>
         <div class="mySlides fade"> 
             <div class="numbertext">2 / 6</div>
-            <img src="images/mona_panda.jpeg" style ="width:100%">
+            <img src="images/mona_panda.jpeg" alt="Mona Panda" style ="width:100%">
             <div class="text">Mona Panda</div>
         </div>
         <div class="mySlides fade"> 
             <div class="numbertext">3 / 6</div>
-            <img src="images/famous_panda.jpeg" style ="width:100%">
+            <img src="images/famous_panda.jpeg" alt="Creation of Panda" style ="width:100%">
             <div class="text">Creation of Panda </div>
         </div>
         <div class="mySlides fade"> 
             <div class="numbertext">4 / 6</div>
-            <img src="images/military_panda.jpeg" style ="width:100%">
+            <img src="images/military_panda.jpeg" alt="Military" style ="width:100%">
             <div class="text">Military Panda</div>
         </div>
         <div class="mySlides fade"> 
             <div class="numbertext">5 / 6</div>
-            <img src="images/gangster_panda.jpeg" style ="width:100%">
+            <img src="images/gangster_panda.jpeg" alt="Gangster Panda" style ="width:100%">
             <div class="text">Gangster Panda</div>
         </div>
         <div class="mySlides fade"> 
             <div class="numbertext">6 / 6</div>
-            <img src="images/classy_panda.jpeg" style ="width:100%">
+            <img src="images/classy_panda.jpeg" alt="Classy Panda" style ="width:100%">
             <div class="text">Classy Panda</div>
         </div>
         <!-- navigating slides back an forth -->
@@ -62,7 +66,9 @@
     </main>
     <script src="scripts/slideshow.js"></script>
     <hr>
+    <footer>
     <div data-include="components/footer.html"></div>
-    </body>
+    </footer>
     <script src="scripts/include.min.js"></script>
-    </html>
+    </body>
+</html>

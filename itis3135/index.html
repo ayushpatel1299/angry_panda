@@ -9,17 +9,28 @@
 
 </head>
 <body>
-    <div data-include="components/header.html"></div>
+    <header>
+    <div data-include="components/header.html">
+        <h1>ITIS 3135 | Ayush Patel's Angry Panda | Home</h1>
+
+    </div>
     <hr>
+    </header>
     <main>
-    <h1>Home</h1>
-    <section>
-        <figure><img class ="hppic" src= "https://i.pinimg.com/222x/5c/fd/e1/5cfde1df8dce2e94e554d94ca80c886a.jpg" alt="Angry Panda"></figure>
-        <p style="text-align: center;" figcaption="color:darkviolet;" ><strong>Don't mess with me I'm Angry Panda!!</strong></figcaption></p>
-    </section>
+    <h2>Home</h2>
+    <div>
+        <figure><img figcaption="Angry Panda" class ="hppic" src= "https://i.pinimg.com/222x/5c/fd/e1/5cfde1df8dce2e94e554d94ca80c886a.jpg" alt="Angry Panda"></figure>
+        <p style="text-align: center;"><strong>Don't mess with me I'm Angry Panda!!</strong></p>
+    </div>
     </main>
     <hr>
-    <div data-include="components/footer.html"></div>
-    </body>
+    <footer>
+        <div data-include="components/footer.html">
+            Site Designed by: Patel Corporation
+            <p><a href="https://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html40.png" alt ="Link to HTML Validator"></a></p>
+            <p><a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="http://www.w3.org/Icons/valid-css.png" alt ="Link to CSS Validator"></a></p>
+        </div>
+    </footer>
     <script src="scripts/include.min.js"></script>
+    </body>
     </html>

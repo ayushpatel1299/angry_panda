@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS 3135 | Ayush Patel| Hobby | Availability</title> 
+    <link rel="stylesheet" href="styles/default.css" type="text/css" >
+
+</head>
+<body>
+    <header>
+        <h1>ITIS 3135 | Ayush Patel's Angry Panda | Hobby</h1>
+        <p class = navLinks>
+            <a class="button" href="https://webpages.charlotte.edu/apate225/itis3135/hobby/index.html">Home</a> |
+            <a class="button" href="https://webpages.charlotte.edu/apate225/itis3135/hobby/aboutus.html">About Us</a> |
+            <a class="button" href="https://webpages.charlotte.edu/apate225/itis3135/hobby/availability.html">Availability</a> |
+            <a class="button" href="https://webpages.charlotte.edu/apate225/itis3135/hobby/how.html">How</a> |
+            <a class="button" href="https://webpages.charlotte.edu/apate225/itis3135/hobby/where.html">Where</a> |
+            <a  class="button" href="https://webpages.charlotte.edu/apate225/itis3135/hobby/whyus.html">Why Us</a> | 
+        </p>
+    <hr>
+    </header>
+    <section>
+        <h2>Availability</h2>
+    </section>
+    <section>
+            <p>Our hours of operation are designed to fit the needs of every individual. If the times listed to not work, please visit the bottom of this page.</p>
+            <table>
+                <tr>
+                  <th>Days</th>
+                  <th>Sunday</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+                </tr>
+                <tr>
+                  <td>Availability</td>
+                  <td>Closed</td>
+                  <td>Open</td>
+                  <td>Open</td>
+                  <td>Open</td>
+                  <td>Open</td>
+                  <td>Open</td>
+                  <td>Open</td>
+                </tr>
+                <tr>
+                  <td>Hours</td>
+                  <td>N/A</td>
+                  <td>8:00am - 6:00pm</td>
+                  <td>8:00am - 6:00pm</td>
+                  <td>8:00am - 6:00pm</td>
+                  <td>8:00am - 6:00pm</td>
+                  <td>8:00am - 6:00pm</td>
+                  <td>12:00pm - 4:00pm</td>
+                </tr>
+            </table>
+            <figure><img figcaption="Ayush Patel getting back points" class ="mypicture" src= "/itis3135/hobby/images/ayushpatel6.jpeg" alt="Ayush Patel getting back points"></figure>
+            <p>
+            If the availble times do not meet your needs feel free to contact the Owner.
+            He will be more than happy to cooperate and work around your schedule.
+            </p>
+	<button onclick="toggleContactCard()">Contact Us</button>
+	<div id="contact-card">
+		<p><strong>Organization:</strong> Wrestling Community by Patel Corporation</p>
+		<p><strong>Owner:</strong> Ayush Patel</p>
+		<p><strong>Phone:</strong> 732-983-6063</p>
+		<p><strong>Address:</strong> 112 Dillons Lane, Mullica Hill, NJ, 08062</p>
+	</div>
+	<script>
+		function toggleContactCard() {
+			var contactCard = document.getElementById("contact-card");
+			if (contactCard.style.display === "none") {
+				contactCard.style.display = "block";
+			} else {
+				contactCard.style.display = "none";
+			}
+		}
+	</script>
+    </section>
+    </main>
+    <hr>
+    <footer>
+        <div data-include="components/footer.html">
+            Site Designed by: Patel Corporation
+            <p><a href="https://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html40.png" alt ="Link to HTML Validator"></a></p>
+            <p><a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="http://www.w3.org/Icons/valid-css.png" alt ="Link to CSS Validator"></a></p>
+        </div>
+    </footer>
+    <script src="scripts/include.min.js"></script>
+    </body>
+    </html>

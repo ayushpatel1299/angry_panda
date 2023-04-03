@@ -1,0 +1,78 @@
+/*
+<link rel="stylesheet" href="styles/default.css" type="text/css" >
+*/
+body {
+    background-color: rgba(0, 132, 255, 0.43) ;
+    font-family: Berthold, Akzidenz Grotesk;
+  
+}
+
+a{
+  color:inherit;
+  color:rgba(92, 29, 163, 0.637);
+  font-family: poligon;
+  font-size:21px;
+
+  
+}
+header:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+a:link {
+ text-decoration: none;
+}
+h1 {
+  color: rgb(12, 12, 165);
+  font-family:Berthold Akzidenz Grotesk;
+  font-size: 120%;
+  text-align: center;
+}
+hr{
+  border-width: 3px;
+  color: blue;
+  padding: 2px;
+  background-color: rgba(10, 2, 255, 0.762);
+}
+h2 {
+  color: rgb(12, 12, 165);;
+  font-family:poligon;  
+  font-size: 100%;
+  text-align: center;
+}
+h3{
+  color: rgba(16, 16, 119, 0.974);
+  font-family:poligon;  font-size: 90%;
+  text-align: center;
+}
+div.title{
+  font-size: larger;
+  text-align: center;
+  color: rgb(13, 13, 115);
+  font-family: poligon;
+}
+h4{ 
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: royalblue;
+  color: rgb(23, 27, 227);
+  font-optical-sizing: 1000%;
+  font-family: poligon;
+}
+li{
+  color: rgb(255, 255, 255);
+  font-family: poligon;
+}
+h5{
+  text-align: center;
+  color: rgb(12, 48, 157);
+  background-color: rgba(208, 211, 229, 0.782);
+  font-family: poligon;
+}

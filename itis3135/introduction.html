@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="styles/default.css" type="text/css" >
 </head>
 <body>
+    <header>
+        <div data-include="components/header.html">
+            <h1>ITIS 3135 | Ayush Patel's Angry Panda | Introduction</h1>
+        </div>
+        <hr>
+        </header>
     <main>
-    <div data-include="components/header.html"></div>
-    <hr>
-    <h1>Introduction</h1>
-    <section>
+    <h2>Introduction</h2>
+    <div>
         <h2>Ayush M. Patel</h2>
         <figure><img class ="mypicture" src= "images/ayushpatel.jpg" alt="Picture of Ayush Patel"></figure>
-        <p figcaption="mypicture"><em>Picture of me after enjoying the beautiful weather. I decided to indulge in my favorite pastime activity. You can see me holding my favorite arbor board above.</em></p>
-    </section>
-    <section>
+        <p><em>Picture of me after enjoying the beautiful weather. I decided to indulge in my favorite pastime activity. You can see me holding my favorite arbor board above.</em></p>
+    </div>
+    <div>
     <ul class="intro">
         <li><strong>Personal Background: </strong>I grew up in New Jersey and spent most of my life there. I moved to NC in 2016. I wrestled D2 in SC for a year before transferring to UNC Charlotte. I transferred because my old University had gotten rid of my major.</li>
         <li><strong>Professional Background: </strong>I am pursuing a Bachelors of Science in Computer Science with concentration in Software Systems and Informatics. I am also apart of the Air Force Reserves Officer Training Corps at UNC Charlotte. I am expected to become an Officer in the Air Force upon obtaining my degree. I am expected to do Cyber Warfare or Intelligence after graduating.</li>
@@ -33,10 +37,12 @@
         <li><strong>Graduation: </strong>Spring 2024</li> 
         <li><strong>Funny/interesting Item to Remember Me by: </strong>I did gymnastics for eight years, and wrestled for 14. State placer for wrestling in NC. I am a scholarship recipient for a D2 School for wrestling</li>
         <li><strong>I’d Also Like to Share: </strong>I'd like to propose this question: Is it better to do the right things or the things you choose to do right?</li> </ul>
-    </section>
+        </div>
     </main>
     <hr>
+    <footer>
     <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/include.min.js"></script>
 </body>
-<script src="scripts/include.min.js"></script>
 </html>

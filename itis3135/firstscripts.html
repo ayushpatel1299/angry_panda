@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="styles/default.css" type="text/css" >
 </head>
 <body>
-  <div data-include="components/header.html"></div>
+  <header>
+    <div data-include="components/header.html">
+        <h1>ITIS 3135 | Ayush Patel's Angry Panda | First Scripts</h1>
+    </div>
     <hr>
+    </header>
     <main>
-    <h1>First Scripts</h1>
-    <h2 id="time"></h2>
-    </section>
+    <h2>First Scripts</h2>
+    <h2 id="time">Time is:</h2>
     <section class="script1">
         <form class="script1">
             <label class="script1" for="name">Name:</label>
@@ -26,7 +29,7 @@
           <h3 id="introduction" >Welcome to Patel Corporations!</h3>
     </section>
     <section class="script1">
-        <h1>Workout Selector</h1>
+        <h2>Workout Selector</h2>
         <p> Select if you participate in any of the activities listed below.</p>
         
         <form class="script1">
@@ -59,7 +62,7 @@
           <h3 id="experience">Your self defense  experience is:</h3>
        </section>
        <section class="script1">
-        <h1>Caloric Balance</h1>
+        <h2>Caloric Balance</h2>
         <form class="script1">
           <label for="calories-eaten">Enter the number of calories eaten:</label><br><br>
           <input type="number" id="calories-eaten">
@@ -73,8 +76,7 @@
         <h3 id="balance">Your caloric balance is:</h3>
        </section>
        <section class="script1">
-      <h1>Weight Tracker</h1>
-
+      <h2>Weight Tracker</h2>
     <form class="script1">
       <label for="current-weight">Enter your current weight:</label><br><br>
       <input type="text" id="current-weight"><br>
@@ -86,18 +88,20 @@
     <h3 id="difference">You need to lose/gain:</h3>
     </section>
     <section class="script1">
-        <h1>Click An Option Below For Fitness Suggestions</h1>
+        <h2>Click An Option Below For Fitness Suggestions</h2>
     <br>
     <button class="script1" onclick="GainWeight()">Gain Weight</button>
     <br>
     <button class="script1" onclick="LoseWeight()">Lose Weight</button>
     <br><br>
-    <div class="script1" class="script1" id="result"></div>
+    <div class="script1" id="result"></div>
     </section>
     
     </main>
     <hr>
+    <footer>
     <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/include.min.js"></script>
   </body>
-  <script src="scripts/include.min.js"></script>
   </html>
