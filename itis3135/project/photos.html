@@ -17,8 +17,47 @@
     </header>
     <main>
     <h2>Photo Gallery</h2>
+        <div>
+        <p class="photos">Below your will see some of the many things you will experience as a cadet in AFROTC.</p>
+    </div>
+    <h2>Life as a Cadet</h2>
+    <div class="slideshow-container">
+        <div class="mySlides fade"> 
+            <div class="numbertext">1 / 4</div>
+            <img src= "/itis3135/project/images/woods.JPEG"  alt="Land Navigation" style ="width:100%">
+            <div class="text">Land Navigation</div>
+        </div>
+        <div class="mySlides fade"> 
+            <div class="numbertext">2 / 4</div>
+            <img src= "/itis3135/project/images/physical.JPG"   alt="Physical" style ="width:100%">
+            <div class="text">Physical Training</div>
+        </div>
+        <div class="mySlides fade"> 
+            <div class="numbertext">3 / 4</div>
+            <img src= "/itis3135/project/images/campus.JPG"  alt="Cadet participating in leadership training" style="width:100%">
+            <div class="text">Cadet participating in leadership training</div>
+        </div>
+        <div class="mySlides fade"> 
+            <div class="numbertext">4 / 4</div>
+            <img src= "/itis3135/project/images/learn.JPEG" alt="Cadet learning about the Air Force" style ="width:100%">
+            <div class="text">Cadet learning about the Air Force</div>
+        </div>
 
+        <!-- navigating slides back an forth -->
+        <a class="prev" onclick="navSlide(-1)">&#10094;</a>
+        <a class="next" onclick="navSlide(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <p class="photos">Do you have what it takes? Are you interested in changing your lifestyle? If so please click on the Interest Form link at the top of this page! </p>
     </main>
+    <script src="scripts/slideshow.js"></script>
     <hr>
     <footer>
         <div data-include="components/footer.html">

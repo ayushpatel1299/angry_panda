@@ -92,3 +92,167 @@ h5{
   color: rgb(31, 7, 185);
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
+.slideshow{
+  box-sizing:border-box;
+ 
+}
+.slideshow{
+  box-sizing:border-box;
+ 
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: fit-content;
+  max-width: fit-content;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: .5px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  background-color: black;
+
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 1px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 1px;
+  background-color: black;
+  position: absolute;
+  top: 1px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.photos{
+  text-align: center;
+  font-size: larger;
+  color: #f2f2f2;
+  background-color:rgba(8, 49, 255, 0.564);
+}
+.form_title{
+  font-size: larger;
+}
+.form{
+  font-size: large;
+  color: rgba(17, 17, 222, 0.838);
+  border: 2px;
+  border-color: black;
+  border-radius: 1%;
+  padding: 2%;
+  text-align: left;
+  background-color:white;
+  color:rgb(26, 26, 176);
+  background-color: rgba(139, 140, 141, 0.576);
+  padding:2%;
+  border: 3px dotted white;
+}
+.submit{
+  color: azure;
+  background-color:navy;
+  text-align: center;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  color:rgb(26, 26, 176);
+  background-color: rgba(139, 140, 141, 0.576);
+  padding:1%;
+  border: 2px dotted white;
+}
+.form_p{
+  color:rgb(26, 26, 176);
+  background-color: rgba(139, 140, 141, 0.576);
+  padding:1%;
+  border: 2px dotted white;
+}
+.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}.benefits{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 80%;
+  width: 80%;
+}
+.why{
+  color:rgb(26, 26, 176);
+  background-color: rgba(139, 140, 141, 0.576);
+  padding:1%;
+  border: 2px solid white; 
+}
+.home_users{
+  text-align: center;
+  font-size: larger;
+  color: navy;
+  border: none;
+  background-color: none;
+}
