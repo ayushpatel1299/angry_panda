@@ -3,7 +3,7 @@
 */
 body {
     background-color: rgba(0, 132, 255, 0.43) ;
-    font-family: Berthold, Akzidenz Grotesk;
+    font-family: poligon, Berthold, Akzidenz Grotesk;
   
 }
 
@@ -58,7 +58,7 @@ div.title{
   color: rgb(13, 13, 115);
   font-family: poligon;
 }
-h4{ 
+.home_users{ 
   padding-top: 1%;
   padding-bottom: 1%;
   background-color: royalblue;
@@ -66,7 +66,7 @@ h4{
   font-optical-sizing: 1000%;
   font-family: poligon;
 }
-li{
+ol.home_users{
   color: rgb(255, 255, 255);
   font-family: poligon;
 }
@@ -75,4 +75,20 @@ h5{
   color: rgb(12, 48, 157);
   background-color: rgba(208, 211, 229, 0.782);
   font-family: poligon;
+}
+.cadet_perks{
+  color:rgb(52, 52, 162);
+  font-family: poligon;;
+  font-size:large;
+}
+.boots{
+  height:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.brief_info{
+  color: rgb(31, 7, 185);
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
